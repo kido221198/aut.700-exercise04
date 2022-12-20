@@ -1,0 +1,16 @@
+name: tracker
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel=6.15.2=py38h06a4308_0
+  - python=3.8.8=hdb3f193_5
+  - pip=22.2.2=py38h06a4308_0
+  - pip:
+    - cvbridge3==1.1
+    - imutils==0.5.4
+    - opencv-python==4.1.2.30
+prefix: /home/kulunu/anaconda3/tracker
+
+
+
